@@ -1,4 +1,12 @@
 
-This is your periodic reminder to check on and approve submitted price lists in CALC.
+Hi [username],
+
+We notice you haven't approved submitted price lists in CALC. When you can, please review and approve these lists.
+
+Have questions about how to review and approve? Please contact us!
+
+Best,
+
+The CALC team 
 
 {{ count_unreviewed }} price list{{ count_unreviewed|pluralize:"s have,has" }} not been reviewed.
