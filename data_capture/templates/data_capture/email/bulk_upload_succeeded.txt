@@ -1,10 +1,10 @@
+Hi [username],
+
+We wanted to let you know that the Region 10 CALC data upload #{{ upload_source.id }},
+uploaded by {{ upload_source.submitter.email }} on {{ upload_source.created_at|tz_timestamp }}, was successful.
+
 {% load humanize %}
 {% load data_capture %}
-
-This message is in regards to Region 10 CALC data upload #{{ upload_source.id }},
-uploaded by {{ upload_source.submitter.email }} on {{ upload_source.created_at|tz_timestamp }}.
-
-The upload was successful!
 
 {{ num_contracts|intcomma }} rows of rate information have been loaded and
 previous Region 10 data has been removed from the CALC database.
@@ -12,3 +12,7 @@ previous Region 10 data has been removed from the CALC database.
 {% if bad_rows %}
   {{ bad_rows|length|intcomma }} were not parsed and could not be loaded.
 {% endif %}
+
+Best,
+
+The CALC team 
